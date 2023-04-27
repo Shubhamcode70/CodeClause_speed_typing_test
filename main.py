@@ -1,8 +1,8 @@
 import random
 import time
 
-# List of words for the typing test
-words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']
+words = ['apple', 'banana', 'cherry', 'date', 'eggplant', 'fig', 'grape', 'honeydew', 'iceberg', 'jackfruit','kiwi', 'lemon', 'mango', 'nectarine', 'orange', 'pear', 'quince', 'raspberry', 'strawberry', 'tangerine', 'ugli', 'vanilla', 'watermelon', 'xigua', 'yellowtail', 'zucchini', 'almond', 'broccoli','cauliflower', 'dill']
+
 
 def generate_sentence():
     return " ".join(random.choices(words, k=10))
